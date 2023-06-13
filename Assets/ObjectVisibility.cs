@@ -6,15 +6,12 @@ public class ObjectVisibility : MonoBehaviour
 {
     public GameObject objectToToggle;
 
-    public void ToggleActiveStatus()
+    public void ToggleActiveStatusA()
     {
-        if (objectToToggle.activeSelf)
-        {
-            objectToToggle.SetActive(false);
-        }
-        else
-        {
-            objectToToggle.SetActive(true);
-        }
+        objectToToggle.SetActive(true);
+    }
+    public void ToggleActiveStatusF()
+    {
+        objectToToggle.SetActive(false);
     }
 }
