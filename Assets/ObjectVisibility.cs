@@ -14,4 +14,16 @@ public class ObjectVisibility : MonoBehaviour
     {
         objectToToggle.SetActive(false);
     }
+
+    public void ToggleActiveStatus()
+    {
+        if (objectToToggle.activeSelf)
+        {
+            objectToToggle.SetActive(false);
+        }
+        else
+        { 
+            objectToToggle.SetActive(true); 
+        }
+    }
 }
