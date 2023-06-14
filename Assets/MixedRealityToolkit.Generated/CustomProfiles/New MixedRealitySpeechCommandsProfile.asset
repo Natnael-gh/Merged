@@ -59,21 +59,21 @@ MonoBehaviour:
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Trial Experiment
+    keyword: Experiment
     keyCode: 0
     action:
       id: 0
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Experimental Apparatus
+    keyword: Materials
     keyCode: 0
     action:
       id: 0
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Close Experiment
+    keyword: Close
     keyCode: 0
     action:
       id: 0
